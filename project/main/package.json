@@ -1,6 +1,6 @@
 {
   "name": "main",
-  "homepage": " https://kp-pandey.github.io/PLACEMENT/SignIn",
+  "homepage": " https://kp-pandey.github.io/PLACEMENT",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3010/",

@@ -237,7 +237,7 @@ function MiniDrawer(props) {
         </IconButton>
         </Hidden>
         <Typography  variant="h6" className={classes.title}>
-           WELCOME
+           WELCOME TO TECH GPC
         </Typography >
           <Tooltip title="HOME PAGE">
           <IconButton style={{color:"white"}}>

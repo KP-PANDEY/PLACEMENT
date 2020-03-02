@@ -1,5 +1,6 @@
 {
   "name": "main",
+  "homepage": "http://KP-PANDEY.github.io/PLACEMENT",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3010/",
@@ -36,9 +37,10 @@
     "simple-react-validator": "^1.4.4",
     "yup": "^0.28.1"
   },
-    "scripts": {
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -57,6 +59,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-    
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
